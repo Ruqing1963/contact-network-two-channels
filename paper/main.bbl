@@ -1,0 +1,136 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{10}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Chen}(2026{\natexlab{a}})}]{PDTP4}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Chen}},\ }\href@noop {} {\bibinfo {title} {Beyond the marginal distribution:
+  prime-gap ordering imprints on a self-avoiding polymer through the
+  small-prime end of the chain}} (\bibinfo {year} {2026}{\natexlab{a}}),\
+  \bibinfo {note} {version 4.0, {Zenodo},
+  \href{https://doi.org/10.5281/zenodo.22944122}{doi:10.5281/zenodo.22944122}}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Chen}(2026{\natexlab{b}})}]{Merged}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Chen}},\ }\href@noop {} {\bibinfo {title} {Collapse, convergence, and the
+  scale of the prime-gap imprint on polymer dynamics}} (\bibinfo {year}
+  {2026}{\natexlab{b}}),\ \bibinfo {note} {{Zenodo},
+  \href{https://doi.org/10.5281/zenodo.23076433}{doi:10.5281/zenodo.23076433}}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Chen}(2026{\natexlab{c}})}]{Paper3}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Chen}},\ }\href@noop {} {\bibinfo {title} {What a prime-programmed polymer
+  can read: sieve composition, congruence traps, and arithmetic blindness}}
+  (\bibinfo {year} {2026}{\natexlab{c}}),\ \bibinfo {note} {{Zenodo},
+  \href{https://doi.org/10.5281/zenodo.23094095}{doi:10.5281/zenodo.23094095}}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Lieberman-Aiden}\ \emph {et~al.}(2009)\citenamefont
+  {Lieberman-Aiden} \emph {et~al.}}]{LiebermanAiden}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Lieberman-Aiden}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title}
+  {Comprehensive mapping of long-range interactions reveals folding principles
+  of the human genome},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Science}\ }\textbf {\bibinfo {volume} {326}},\ \bibinfo {pages}
+  {289} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chen}(2026{\natexlab{d}})}]{ANCCFT}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Chen}},\ }\href@noop {} {\bibinfo {title} {Algorithmic non-commutative class
+  field theory: Hecke operators, sandpile groups and operator algebras on trees
+  and buildings, with applications}} (\bibinfo {year} {2026}{\natexlab{d}}),\
+  \bibinfo {note} {{Zenodo},
+  \href{https://doi.org/10.5281/zenodo.22883908}{doi:10.5281/zenodo.22883908}}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Biggs}(1999)}]{Biggs}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~L.}\ \bibnamefont
+  {Biggs}},\ }\bibfield  {title} {\bibinfo {title} {Chip-firing and the
+  critical group of a graph},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Algebraic Combin.}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo
+  {pages} {25} (\bibinfo {year} {1999})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lim}(2020)}]{Lim}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.-H.}\ \bibnamefont
+  {Lim}},\ }\bibfield  {title} {\bibinfo {title} {Hodge {Laplacians} on
+  graphs},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {SIAM
+  Rev.}\ }\textbf {\bibinfo {volume} {62}},\ \bibinfo {pages} {685} (\bibinfo
+  {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Klein}\ and\ \citenamefont
+  {Randi\'c}(1993)}]{KleinRandic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Klein}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Randi\'c}},\ }\bibfield  {title} {\bibinfo {title} {Resistance distance},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {J. Math. Chem.}\
+  }\textbf {\bibinfo {volume} {12}},\ \bibinfo {pages} {81} (\bibinfo {year}
+  {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Holm}(1979)}]{Holm}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Holm}},\ }\bibfield  {title} {\bibinfo {title} {A simple sequentially
+  rejective multiple test procedure},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Scand. J. Stat.}\ }\textbf {\bibinfo {volume} {6}},\
+  \bibinfo {pages} {65} (\bibinfo {year} {1979})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Benjamini}\ and\ \citenamefont
+  {Hochberg}(1995)}]{BH}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Benjamini}}\ and\ \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Hochberg}},\ }\bibfield  {title} {\bibinfo {title} {Controlling the false
+  discovery rate: a practical and powerful approach to multiple testing},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {J. R. Stat. Soc.
+  B}\ }\textbf {\bibinfo {volume} {57}},\ \bibinfo {pages} {289} (\bibinfo
+  {year} {1995})}\BibitemShut {NoStop}%
+\end{thebibliography}%
